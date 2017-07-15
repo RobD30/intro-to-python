@@ -16,4 +16,4 @@ reservoir_volume *= 0.95
 # that's piped to arid regions.
 reservoir_volume -= 2.5e5
 # print the new value of the reservoir_volume variable
-print (reservoir_volume)
+print(reservoir_volume)
