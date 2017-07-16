@@ -2,11 +2,10 @@ prophecy = "And there shall in that time be rumours of things going astray, and 
 
 vowel_count = prophecy.count('a,e,i,o,u')
 
-# TODO: set the value of vowel_count to be the number of vowels in prophecy
-
 
 
 # Print the final count
 print(vowel_count)
 
-Today's forecast for Seoul: The temperature will range from 9 to 18 degrees Celsius. Conditions will be light rain.
+Today
+'s forecast for Seoul: The temperature will range from 9 to 18 degrees Celsius. Conditions will be light rain.
