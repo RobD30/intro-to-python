@@ -9,8 +9,8 @@ def population_density(population, land_area):
 
 
 def readable_timedelta(days):
-    '''For weeks'''
+    '''For Weeks'''
     weeks = days // 7
     '''For Days'''
     remainder = days % 7
-    return({} + "week(s) and " + {} + " day(s).").format(weeks, remainder)
+    return ("{} week(s) and {} day(s)").format(weeks, remainder)
