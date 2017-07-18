@@ -7,22 +7,33 @@ def convert_to_numeric(score):
 
 def sum_of_middle_three(score1, score2, score3, score4, score5):
     """
-    Gives the sum
+    Find the sum of the middle three numbers out of the five given.
     """
-    sum =
-    return
+    max_score = max(score1, score2, score3, score4, score5)
+    min_score = min(score1, score2, score3, score4, score5)
+    total = score1 + score2 + score3 + score4 + score5 - max_score - min_score
+    return total
 
 
-def score_to_rating_string(score):
+def score_to_rating_string(total):
     """
 
     :return:
     """
-    rating =
+    if total < 1:
+        rating = "Terrible"
+    elif total < 2:
+        rating = "Bad"
+    elif total < 3:
+        rating = "Ok"
+    elif total < 4:
+        rating = "Good"
+    else:
+        rating = "Excelent"
     return rating
 
 
-def scores_to_rate(score1, score2, score3, score4, score5):
+def scores_to_rating(score1, score2, score3, score4, score5):
     """
     Turns 5 scores into a rating by averaging the middle 3.
     """
